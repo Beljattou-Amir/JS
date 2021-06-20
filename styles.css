@@ -1,0 +1,895 @@
+@font-face {
+    font-family: HTOWERT;
+    src: url(HTOWERT.TTF);
+  }
+  
+
+.body
+{
+    
+    
+   
+    background-image: url(photo.JPG);
+    background-repeat: no-repeat;
+    
+    background-size:cover;
+    background-position: center;
+
+    
+   
+    
+}
+
+.MONOPRIX
+{
+    text-align: center;
+    
+    font-family: HTOWERT;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+   
+}
+
+.monop 
+{
+    padding: 30px;
+    font-family: HTOWERT;
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.forme{
+   
+    
+    position: relative;
+    padding-top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0,0,0,0.);
+    width: 30%;
+
+
+}
+.forme label{
+    
+    font-family: HTOWERT;
+   font-size: 22px;
+   font-weight: bold;
+  
+
+}
+.forme input{
+
+    
+    border: 5px ;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 1px;
+
+}
+.forme select{
+    font-family: HTOWERT;
+    border: 10px ;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 1px;
+}
+.submit
+{
+
+    font-family: HTOWERT;
+    background-color: #ff0000; 
+    border: 2px ;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    
+}
+
+.name
+{
+    font-family: HTOWERT;
+}
+.age
+{
+    font-family: HTOWERT;
+}
+.mail
+{
+    font-family: HTOWERT;
+}
+.phone
+{
+    font-family: HTOWERT;
+}
+.immatriculation
+{
+    font-family: HTOWERT;
+}
+.po
+{
+    font-family: HTOWERT;
+}
+.anciennete
+{
+    font-family: HTOWERT;
+}
+.footer
+{
+  
+    
+    font-family: Impact;
+    font-weight: bold;
+    font-size: 30px;
+    top:  65%;
+    position: relative;
+    padding-left: 90%;
+    color: black;
+
+  
+}
+.body2{
+    background-image: url(photo3.JPG);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+
+    width: 100%;
+   
+}
+.es
+{
+    text-align: center;
+    
+    text-decoration: underline;
+    font-family: HTOWERT;  
+    font-size: 150%;
+}
+
+.user
+{
+    position: relative;
+    font-family: HTOWERT;
+    font-size: bold 28px;
+    padding-left: 900px ;
+    color: rgb(5, 5, 5);
+    
+}
+
+.user fas 
+{
+    
+    font-size: 25px;
+    padding-left: 800px ;
+    color: white;
+    
+}
+
+.select
+{
+    margin-left: 650px;
+}
+
+
+
+
+.question3
+{
+    text-align: left;
+    margin-top: 52px;
+    
+}
+.question4
+{
+    text-align: left;
+    margin-top: 52px;
+    
+}
+
+.question
+{
+    text-align: center;
+    font-family: HTOWERT;
+    font-size: 150%;
+    
+    
+}
+
+
+.containerbtn {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 135px;
+  }
+  
+  
+  .containerbtn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+
+
+    
+  }
+  
+ 
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  
+  .containerbtn:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  
+  .containerbtn input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  
+  .containerbtn input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  
+  .containerbtn .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+  .containerbtn1 {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 135px;
+  }
+  
+  
+  .containerbtn1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    
+  }
+  .checkmark1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  
+  .containerbtn1:hover input ~ .checkmark1 {
+    background-color: #ccc;
+  }
+  
+  
+  .containerbtn1 input:checked ~ .checkmark1 {
+    background-color: #2196F3;
+  }
+  
+  
+  .checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  
+  .containerbtn1 input:checked ~ .checkmark1:after {
+    display: block;
+  }
+  
+  
+  .containerbtn1 .checkmark1:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+
+  .emojibtn {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding-left: 85px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 155px;
+  }
+  
+  
+  .emojibtn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+
+
+    
+  }
+  
+ 
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  
+  .emojibtn:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  
+  .emojibtn input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  
+  .emojibtn input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  
+  .emojibtn .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+  .emojibtn1 {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding-left: 85px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 155px;
+  }
+  
+  
+  .emojibtn1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+
+
+    
+  }
+  
+ 
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  
+  .emojibtn1:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  
+  .emojibtn1 input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  
+  .emojibtn1 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  
+  .emojibtn1 .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+.container {
+    display: inline;
+    position: relative;
+    padding-left: 2%;
+    cursor: pointer;
+    border-radius: 1%;
+    margin-left: 535px;
+  }
+  .button2
+  {
+    margin-left: 335px;
+  }
+  .button2 input{
+    position: relative;
+    top: 120%;
+    margin-left: 535px;
+    margin-top: 80%;
+    background-color: white; 
+    border: 2px solid black;
+    color: black;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 30px;
+    transform: translate(60px);
+    margin: 5%;
+    cursor: pointer;  
+} 
+.button01 {
+    
+    position: relative;
+    top: 120%;
+    margin-left: 135px;
+    margin-top: 80%;
+    background-color: white; 
+    border: 2px solid black;
+    color: black;
+    padding: 7px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 30px;
+    transform: translate(60px);
+    margin:0;
+    cursor: pointer;  
+} 
+.button01:hover:focus
+{
+    background-color:#2196F3;
+}
+.button02 {
+    position: relative;
+    top: 120%;
+    margin-left: 135px;
+    margin-top: 80%;
+    background-color: white; 
+    border: 2px solid black;
+    color: black;
+    padding: 7px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 30px;
+    transform: translate(60px);
+    margin:0;
+    cursor: pointer;  
+} 
+.button02:hover
+{
+    background-color:#2196F3;
+}
+.button03 {
+    position: relative;
+    top: 120%;
+
+    margin-top: 80%;
+    background-color: white; 
+    border: 2px solid black;
+    color: black;
+    padding: 7px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 30px;
+    transform: translate(60px);
+    margin:0;
+    cursor: pointer;  
+} 
+.button03:hover:focus
+{
+    background-color:#2196F3;
+}
+.button04 {
+    position: relative;
+    top: 120%;
+
+    margin-top: 80%;
+    background-color: white; 
+    border: 2px solid black;
+    color: black;
+    padding: 7px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 30px;
+    transform: translate(60px);
+    margin:0;
+    cursor: pointer;  
+} 
+.button04:hover
+{
+    background-color:#2196F3;
+}
+
+.button3
+  {
+    margin-left: 425px;
+  } 
+  .button3 input
+  {
+    
+    top: 130%;
+    margin-left: 735px;
+    margin-top: 80%;
+    background-color: white; 
+    border: 2px solid black;
+    color: black;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 5%;
+    
+    cursor: pointer;  
+    } 
+
+    .button4
+  {
+    margin-left: 100px;
+  } 
+  .button4 input
+  {
+    
+    top: 130%;
+    margin-left: 435px;
+    margin-top: 80%;
+    background-color: white; 
+    border: 2px solid black;
+    color: black;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 5%;
+    
+    cursor: pointer;  
+    } 
+
+    .button5
+    {
+      margin-left: 400px;
+    } 
+    .button5 input
+    {
+      
+      top: 130%;
+      margin-left: 435px;
+      margin-top: 80%;
+      background-color: white; 
+      border: 2px solid black;
+      color: black;
+      padding: 15px 70px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      border-radius: 30px;
+      margin: 5%;
+      
+      cursor: pointer;  
+      } 
+
+      .message
+      {
+          text-align: center;
+          font-family: HTOWERT;
+          font-size: 25px;
+          margin-left: 30px;
+      }
+
+.footer5{
+    
+    padding: 0;
+    font-family: Impact;
+    font-weight: bold;
+    font-size: 30px;
+    top:  135%;
+    position: relative;
+    padding-left: 100%;
+    color: black; 
+    margin-left: 1000px;
+}
+.footer2{
+    padding: 0;
+    font-family: Impact;
+    font-weight: bold;
+    font-size: 30px;
+    top:  135%;
+    position: relative;
+    padding-left: 90%;
+    color: black; 
+}
+.body3{
+    background-image: url(photo3.JPG);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size:cover;
+    background-position: relative;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.body4{
+    background-image: url(photo3.JPG);
+    background-repeat: no-repeat;
+   
+    background-size:cover;
+    background-position: center;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.body5
+{
+    background-image: url(photo3.JPG);
+    background-repeat: no-repeat;
+   
+    background-size:cover;
+    background-position: center;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.rating1
+{
+    position: absolute;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rating1 input
+{
+    display: flex;
+    position: absolute; 
+    opacity: 0;
+}
+.rating1 label
+{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    
+    
+}
+.rating1 label:before
+{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 35px;
+    color: 	 #000000;
+
+}
+.rating1 label:after
+{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 35px;
+    color: #FFD700;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+.rating1 label:hover:after,
+.rating1 label:hover ~ label:before,
+.rating1 input:checked ~ label:after
+{
+    opacity: 1;
+
+}
+
+.rating2
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 600px;
+}
+.rating2 input
+{
+    display: none;
+}
+.rating2 label
+{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    
+    
+}
+.rating2 label:before
+{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 35px;
+    color: 	 #000000;
+
+}
+.rating2 label:after
+{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 35px;
+    color: #FFD700;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+.rating2 label:hover:after,
+.rating2 label:hover ~ label:before,
+.rating2 input:checked ~ label:after
+{
+    opacity: 1;
+
+}
+
+
+.rating3
+{
+    position: absolute;
+    margin-left: 600px;
+   
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rating3 input
+{
+    display: none;
+}
+.rating3 label
+{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    
+    
+}
+.rating3 label:before
+{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 35px;
+    color: 	 #000000;
+
+}
+.rating3 label:after
+{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 35px;
+    color: #FFD700;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+.rating3 label:hover:after,
+.rating3 label:hover ~ label:before,
+.rating3 input:checked ~ label:after
+{
+    opacity: 1;
+
+}

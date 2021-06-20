@@ -1,0 +1,44 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title> cookie </title>
+	<meta charset="utf8">
+</head>
+<body>
+	
+<body onload="setcookie">
+	<p id="cook"></p>
+<script type="text/javascript">
+	function setcookie(cname, cvalue,exdays){
+		var d = new Date();
+		d.setTime(d.getTime()+ (exdays*24*60*60*1000));
+		var expires = "expires="+d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires +";path=/";
+	}
+	function getcookie(cname){ 
+		console.log(document.cookie);
+		var name = cname +"=";
+		var ca = document.cookie.split(';');
+		for(var i=0; i<ca.length; i++){
+			var c = ca[i];
+			while (c.charAt(0) == ''){
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0){
+				return c.substring(name.length,c.length);
+			}
+		}
+		return null;
+	}
+	setcookie('cookie1', 'JE SUIS LE PREMIER COOKIE',7);
+    setcookie('cookie2', ' JE SUIS UN AUTRE COOKIE' ,7);
+	var x=getcookie("cookie1");
+	console.log(x);
+
+	
+    var affiche = document.getElementById('cook');
+    affiche.innerHTML= 'valeur:' + getcookie('cookie1');
+</script> 
+
+</body>
+</html>

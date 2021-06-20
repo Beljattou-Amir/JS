@@ -1,0 +1,73 @@
+<!DOCTYPE html5>
+<html lang="eng">
+<head>
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> page 1</title>
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="script.js"></script>
+	
+</head>
+<body class="body">
+	
+	
+	<header class="MONOPRIX">
+		<h1 class="monop"> MONOPRIX </h1> 
+	</header>
+	<div class="es">
+	<h2> Enquéte De Satisfaction Salariés</h2>
+    </div>
+	<br>
+	<div class="forme">
+	<form action="page2.2.php" method="post" width="20%"  >
+		<label required class="name"> *Nom et Prénom </label>
+		<input required type="text" name="nom_prenom"  placeholder="Nom et Prénom" id="nom_prenom"><br>
+		<br>
+		<br>
+		<label class="age"> *Age </label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		<input required type="number" name="age"  placeholder="Age" id="age"><br>
+		<br>
+		<br>
+		<label class="mail"> *Adresse Mail </label>&nbsp;&nbsp; &nbsp;
+		<input required type="mail" name="mail"  placeholder="aaaaaa@bbbb.yyy" id="mail"><br>
+		<br>
+		<br>
+		<label  class="phone"> *Telephone </label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+		<input required maxlength="10" minlength="10" type="tel" name="phone" placeholder="Telephone" id="phone"><br>
+		<br>
+		<br>
+		<label class="immatriculation"> *Immatriculation  </label>
+		<input required type="text" name="immatriculation" placeholder="Immatriculation" id="immatriculation"><br>
+		<br>
+		<br>
+		<label required class="po"> *Poste Occupé</label>&nbsp;&nbsp;&nbsp;
+		<select required name="poste" placeholder="Selectionner votre poste"  id="poste">
+					<option> Directeur De Magasin (F/H) </option>
+					<option> Manager D'équipes (F/H) </option>
+					<option> Employé Commercial (F/H) </option>
+					<option> Hote(Hotesse) De Caisse (F/H) </option>
+					<option> Fonctions Support (F/H) </option>
+					<option> alternant (F/H)</option>
+					<option>contrat etudiant (F/H) </option> 
+					<option> Autres </option>
+		</select><br>
+		<br>
+		<br>
+		<label  class="anciennete"> *Ancienneté </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+		<input required type="number" name="anciennete" placeholder="Nombre d'année " id="anciennete"><br>
+		<br>
+		<br>
+		<input required class="submit" type="submit" name="submit" value="Commencer L'Enquéte" id="submit" onclick="save_user_details()" />
+    </form>
+	</div>
+	
+	<!-- <div class="footer">
+		<footer> 1/5 </footer>
+		</diV> -->
+</body>
+</html>
+	
+
+	
+	
